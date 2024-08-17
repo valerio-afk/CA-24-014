@@ -29,6 +29,25 @@ Il codice presente in questo repository è stato scritto per i seguenti video su
 * [POWERSORT, MSD RADIXSORT, STOOGESORT, I CANT BELIEVE IT CAN SORT](https://youtu.be/GxumFZdDVfI)
 * [La mia IMPLEMENTAZIONE di SOUND OF SORTING in PYTHON](https://youtu.be/PoUdczUTrIo)
 
+# Quick start
+
+Per eseguirlo, è necessario specificare un algoritmo di ordinamento da riga di comando (usa la lista in alto come riferimento).
+
+```sh
+$ python main.py --name <nome algo>
+```
+
+Ad esempio, per il MergeSort:
+
+```sh
+$ python main.py --name MergeSort
+```
+
+È possibile specificare anche il numero di elementi da ordinare con `--number`. Se si vogliono ordinare 100 numeri: 
+
+```sh
+$ python main.py --name MergeSort --number 100
+```
 
 
 # Contatti
